@@ -9,8 +9,7 @@ const fishMenu = (fishOptions) => {
     <section class="menu__item">${fish.species} Soup</section>
     <section class="menu__item">${fish.species} Sandwich</section>
     <section class="menu__item">Grilled ${fish.species}</section>
-    `
-
+`
     }
     htmlMenu += `</article>`
     return htmlMenu
